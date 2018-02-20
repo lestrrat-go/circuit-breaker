@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/lestrrat/go-circuit-breaker/breaker"
+	"github.com/lestrrat-go/circuit-breaker/breaker"
 )
 
 // NewClient creates a new HTTP Client where requests are controlled via

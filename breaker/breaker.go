@@ -24,8 +24,8 @@ import (
 	"time"
 
 	"github.com/cenk/backoff"
-	"github.com/lestrrat/go-circuit-breaker/breaker/internal/window"
-	pdebug "github.com/lestrrat/go-pdebug"
+	"github.com/lestrrat-go/circuit-breaker/breaker/internal/window"
+	pdebug "github.com/lestrrat-go/pdebug"
 	"github.com/pkg/errors"
 )
 

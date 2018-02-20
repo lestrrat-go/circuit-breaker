@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/cenk/backoff"
-	"github.com/lestrrat/go-circuit-breaker/internal/option"
+	"github.com/lestrrat-go/circuit-breaker/internal/option"
 )
 
 // WithClock is used specify the clock used by the circuir breaker.

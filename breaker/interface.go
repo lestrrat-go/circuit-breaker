@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/cenk/backoff"
-	"github.com/lestrrat/go-circuit-breaker/breaker/internal/window"
+	"github.com/lestrrat-go/circuit-breaker/breaker/internal/window"
 )
 
 // Clock is an interface that defines a pluggable clock (as opposed to

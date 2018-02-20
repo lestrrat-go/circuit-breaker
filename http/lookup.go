@@ -3,7 +3,7 @@ package http
 import (
 	"net/url"
 
-	"github.com/lestrrat/go-circuit-breaker/breaker"
+	"github.com/lestrrat-go/circuit-breaker/breaker"
 )
 
 func NewPerHostLookup(hosts breaker.Map) *PerHostLookup {

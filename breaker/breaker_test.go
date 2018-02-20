@@ -7,7 +7,7 @@ import (
 
 	"github.com/cenk/backoff"
 	"github.com/facebookgo/clock"
-	"github.com/lestrrat/go-circuit-breaker/breaker"
+	"github.com/lestrrat-go/circuit-breaker/breaker"
 	"github.com/stretchr/testify/assert"
 )
 

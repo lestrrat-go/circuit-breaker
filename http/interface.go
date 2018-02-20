@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/lestrrat/go-circuit-breaker/breaker"
+	"github.com/lestrrat-go/circuit-breaker/breaker"
 )
 
 var ErrBadStatus = errors.New("bad HTTP status")

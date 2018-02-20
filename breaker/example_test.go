@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/cenk/backoff"
-	"github.com/lestrrat/go-circuit-breaker/breaker"
+	"github.com/lestrrat-go/circuit-breaker/breaker"
 )
 
 func Example() {

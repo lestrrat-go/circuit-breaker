@@ -9,8 +9,8 @@ import (
 
 	"github.com/cenk/backoff"
 	"github.com/facebookgo/clock"
-	"github.com/lestrrat/go-circuit-breaker/breaker"
-	httpb "github.com/lestrrat/go-circuit-breaker/http"
+	"github.com/lestrrat-go/circuit-breaker/breaker"
+	httpb "github.com/lestrrat-go/circuit-breaker/http"
 	"github.com/stretchr/testify/assert"
 )
 

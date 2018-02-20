@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	pdebug "github.com/lestrrat/go-pdebug"
+	pdebug "github.com/lestrrat-go/pdebug"
 )
 
 // NewEventEmitter wraps Breaker and creates an EventEmitter
